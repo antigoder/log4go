@@ -121,7 +121,7 @@ init	wrapper.go	/^func init() {$/;"	f
 intLogc	log4go.go	/^func (log Logger) intLogc(lvl Level, closure func() string) {$/;"	f
 intLogf	log4go.go	/^func (log Logger) intLogf(lvl Level, format string, args ...interface{}) {$/;"	f
 intRotate	filelog.go	/^func (w *FileLogWriter) intRotate() error {$/;"	f
-levelStrings	log4go.go	/^	levelStrings = [...]string{"FNST", "FINE", "DEBG", "TRAC", "INFO", "WARN", "EROR", "CRIT"}$/;"	v
+levelStrings	log4go.go	/^	levelStrings = [...]string{"FNST", "FINE", "DEBG", "TRAC", "INFO", "WARN", "ERR", "CRIT"}$/;"	v
 log4go	config.go	/^package log4go$/;"	p
 log4go	filelog.go	/^package log4go$/;"	p
 log4go	log4go.go	/^package log4go$/;"	p

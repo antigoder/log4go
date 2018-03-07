@@ -56,9 +56,9 @@ var formatTests = []struct {
 		},
 		Formats: map[string]string{
 			// TODO(kevlar): How can I do this so it'll work outside of PST?
-			FORMAT_DEFAULT: "[2009/02/13 23:31:30 UTC] [EROR] (source) message\n",
-			FORMAT_SHORT:   "[23:31 13/02/09] [EROR] message\n",
-			FORMAT_ABBREV:  "[EROR] message\n",
+			FORMAT_DEFAULT: "[2009/02/13 23:31:30 UTC] [ERR] (source) message\n",
+			FORMAT_SHORT:   "[23:31 13/02/09] [ERR] message\n",
+			FORMAT_ABBREV:  "[ERR] message\n",
 		},
 	},
 }
@@ -328,7 +328,7 @@ func TestXMLConfig(t *testing.T) {
 	fmt.Fprintln(fd, "       %t - Time (15:04)")
 	fmt.Fprintln(fd, "       %D - Date (2006/01/02)")
 	fmt.Fprintln(fd, "       %d - Date (01/02/06)")
-	fmt.Fprintln(fd, "       %L - Level (FNST, FINE, DEBG, TRAC, WARN, EROR, CRIT)")
+	fmt.Fprintln(fd, "       %L - Level (FNST, FINE, DEBG, TRAC, WARN, ERR, CRIT)")
 	fmt.Fprintln(fd, "       %S - Source")
 	fmt.Fprintln(fd, "       %M - Message")
 	fmt.Fprintln(fd, "       It ignores unknown format strings (and removes them)")
