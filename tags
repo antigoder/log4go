@@ -1,0 +1,160 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddFilter	log4go.go	/^func (log Logger) AddFilter(name string, lvl Level, writer LogWriter) Logger {$/;"	f
+AddFilter	wrapper.go	/^func AddFilter(name string, lvl Level, writer LogWriter) {$/;"	f
+BenchmarkConsoleLog	log4go_test.go	/^func BenchmarkConsoleLog(b *testing.B) {$/;"	f
+BenchmarkConsoleNotLogged	log4go_test.go	/^func BenchmarkConsoleNotLogged(b *testing.B) {$/;"	f
+BenchmarkConsoleUtilLog	log4go_test.go	/^func BenchmarkConsoleUtilLog(b *testing.B) {$/;"	f
+BenchmarkConsoleUtilNotLog	log4go_test.go	/^func BenchmarkConsoleUtilNotLog(b *testing.B) {$/;"	f
+BenchmarkFileLog	log4go_test.go	/^func BenchmarkFileLog(b *testing.B) {$/;"	f
+BenchmarkFileNotLogged	log4go_test.go	/^func BenchmarkFileNotLogged(b *testing.B) {$/;"	f
+BenchmarkFileUtilLog	log4go_test.go	/^func BenchmarkFileUtilLog(b *testing.B) {$/;"	f
+BenchmarkFileUtilNotLog	log4go_test.go	/^func BenchmarkFileUtilNotLog(b *testing.B) {$/;"	f
+BenchmarkFormatLogRecord	log4go_test.go	/^func BenchmarkFormatLogRecord(b *testing.B) {$/;"	f
+CRITICAL	log4go.go	/^	CRITICAL$/;"	c
+Close	filelog.go	/^func (w *FileLogWriter) Close() {$/;"	f
+Close	log4go.go	/^func (log Logger) Close() {$/;"	f
+Close	pattlog.go	/^func (w FormatLogWriter) Close() {$/;"	f
+Close	socklog.go	/^func (w SocketLogWriter) Close() {$/;"	f
+Close	termlog.go	/^func (c *ConsoleLogWriter) Close() {$/;"	f
+Close	wrapper.go	/^func Close() {$/;"	f
+ConsoleLogWriter	termlog.go	/^type ConsoleLogWriter struct {$/;"	t
+Crash	wrapper.go	/^func Crash(args ...interface{}) {$/;"	f
+Crashf	wrapper.go	/^func Crashf(format string, args ...interface{}) {$/;"	f
+Critical	log4go.go	/^func (log Logger) Critical(arg0 interface{}, args ...interface{}) error {$/;"	f
+Critical	wrapper.go	/^func Critical(arg0 interface{}, args ...interface{}) error {$/;"	f
+DEBUG	log4go.go	/^	DEBUG$/;"	c
+Debug	log4go.go	/^func (log Logger) Debug(arg0 interface{}, args ...interface{}) {$/;"	f
+Debug	wrapper.go	/^func Debug(arg0 interface{}, args ...interface{}) {$/;"	f
+ERROR	log4go.go	/^	ERROR$/;"	c
+Error	log4go.go	/^func (log Logger) Error(arg0 interface{}, args ...interface{}) error {$/;"	f
+Error	wrapper.go	/^func Error(arg0 interface{}, args ...interface{}) error {$/;"	f
+Exit	wrapper.go	/^func Exit(args ...interface{}) {$/;"	f
+Exitf	wrapper.go	/^func Exitf(format string, args ...interface{}) {$/;"	f
+FINE	log4go.go	/^	FINE$/;"	c
+FINEST	log4go.go	/^	FINEST Level = iota$/;"	c
+FORMAT_ABBREV	pattlog.go	/^	FORMAT_ABBREV  = "[%L] %M"$/;"	c
+FORMAT_DEFAULT	pattlog.go	/^	FORMAT_DEFAULT = "[%D %T] [%L] (%S) %M"$/;"	c
+FORMAT_SHORT	pattlog.go	/^	FORMAT_SHORT   = "[%t %d] [%L] %M"$/;"	c
+FileLogWriter	filelog.go	/^type FileLogWriter struct {$/;"	t
+Filter	log4go.go	/^type Filter struct {$/;"	t
+Fine	log4go.go	/^func (log Logger) Fine(arg0 interface{}, args ...interface{}) {$/;"	f
+Fine	wrapper.go	/^func Fine(arg0 interface{}, args ...interface{}) {$/;"	f
+Finest	log4go.go	/^func (log Logger) Finest(arg0 interface{}, args ...interface{}) {$/;"	f
+Finest	wrapper.go	/^func Finest(arg0 interface{}, args ...interface{}) {$/;"	f
+FormatLogRecord	pattlog.go	/^func FormatLogRecord(format string, rec *LogRecord) string {$/;"	f
+FormatLogWriter	pattlog.go	/^type FormatLogWriter chan *LogRecord$/;"	t
+Global	wrapper.go	/^	Global Logger$/;"	v
+INFO	log4go.go	/^	INFO$/;"	c
+Info	log4go.go	/^func (log Logger) Info(arg0 interface{}, args ...interface{}) {$/;"	f
+Info	wrapper.go	/^func Info(arg0 interface{}, args ...interface{}) {$/;"	f
+L4G_BUILD	log4go.go	/^	L4G_BUILD   = 1$/;"	c
+L4G_MAJOR	log4go.go	/^	L4G_MAJOR   = 3$/;"	c
+L4G_MINOR	log4go.go	/^	L4G_MINOR   = 0$/;"	c
+L4G_VERSION	log4go.go	/^	L4G_VERSION = "log4go-v3.0.1"$/;"	c
+Level	log4go.go	/^type Level int$/;"	t
+LoadConfiguration	config.go	/^func (log Logger) LoadConfiguration(filename string) {$/;"	f
+LoadConfiguration	wrapper.go	/^func LoadConfiguration(filename string) {$/;"	f
+Log	log4go.go	/^func (log Logger) Log(lvl Level, source, message string) {$/;"	f
+Log	wrapper.go	/^func Log(lvl Level, source, message string) {$/;"	f
+LogBufferLength	log4go.go	/^	LogBufferLength = 32$/;"	v
+LogRecord	log4go.go	/^type LogRecord struct {$/;"	t
+LogWrite	filelog.go	/^func (w *FileLogWriter) LogWrite(rec *LogRecord) {$/;"	f
+LogWrite	pattlog.go	/^func (w FormatLogWriter) LogWrite(rec *LogRecord) {$/;"	f
+LogWrite	socklog.go	/^func (w SocketLogWriter) LogWrite(rec *LogRecord) {$/;"	f
+LogWrite	termlog.go	/^func (c *ConsoleLogWriter) LogWrite(rec *LogRecord) {$/;"	f
+LogWriter	log4go.go	/^type LogWriter interface {$/;"	t
+Logc	log4go.go	/^func (log Logger) Logc(lvl Level, closure func() string) {$/;"	f
+Logc	wrapper.go	/^func Logc(lvl Level, closure func() string) {$/;"	f
+Logf	log4go.go	/^func (log Logger) Logf(lvl Level, format string, args ...interface{}) {$/;"	f
+Logf	wrapper.go	/^func Logf(lvl Level, format string, args ...interface{}) {$/;"	f
+Logger	log4go.go	/^type Logger map[string]*Filter$/;"	t
+NewConsoleLogWriter	termlog.go	/^func NewConsoleLogWriter() *ConsoleLogWriter {$/;"	f
+NewConsoleLogger	log4go.go	/^func NewConsoleLogger(lvl Level) Logger {$/;"	f
+NewDefaultLogger	log4go.go	/^func NewDefaultLogger(lvl Level) Logger {$/;"	f
+NewFileLogWriter	filelog.go	/^func NewFileLogWriter(fname string, rotate bool) *FileLogWriter {$/;"	f
+NewFormatLogWriter	pattlog.go	/^func NewFormatLogWriter(out io.Writer, format string) FormatLogWriter {$/;"	f
+NewLogger	log4go.go	/^func NewLogger() Logger {$/;"	f
+NewSocketLogWriter	socklog.go	/^func NewSocketLogWriter(proto, hostport string) SocketLogWriter {$/;"	f
+NewXMLLogWriter	filelog.go	/^func NewXMLLogWriter(fname string, rotate bool) *FileLogWriter {$/;"	f
+Rotate	filelog.go	/^func (w *FileLogWriter) Rotate() {$/;"	f
+SetFormat	filelog.go	/^func (w *FileLogWriter) SetFormat(format string) *FileLogWriter {$/;"	f
+SetFormat	termlog.go	/^func (c *ConsoleLogWriter) SetFormat(format string) {$/;"	f
+SetHeadFoot	filelog.go	/^func (w *FileLogWriter) SetHeadFoot(head, foot string) *FileLogWriter {$/;"	f
+SetRotate	filelog.go	/^func (w *FileLogWriter) SetRotate(rotate bool) *FileLogWriter {$/;"	f
+SetRotateDaily	filelog.go	/^func (w *FileLogWriter) SetRotateDaily(daily bool) *FileLogWriter {$/;"	f
+SetRotateLines	filelog.go	/^func (w *FileLogWriter) SetRotateLines(maxlines int) *FileLogWriter {$/;"	f
+SetRotateMaxBackup	filelog.go	/^func (w *FileLogWriter) SetRotateMaxBackup(maxbackup int) *FileLogWriter {$/;"	f
+SetRotateSize	filelog.go	/^func (w *FileLogWriter) SetRotateSize(maxsize int) *FileLogWriter {$/;"	f
+SocketLogWriter	socklog.go	/^type SocketLogWriter chan *LogRecord$/;"	t
+Stderr	wrapper.go	/^func Stderr(args ...interface{}) {$/;"	f
+Stderrf	wrapper.go	/^func Stderrf(format string, args ...interface{}) {$/;"	f
+Stdout	wrapper.go	/^func Stdout(args ...interface{}) {$/;"	f
+Stdoutf	wrapper.go	/^func Stdoutf(format string, args ...interface{}) {$/;"	f
+String	log4go.go	/^func (l Level) String() string {$/;"	f
+TRACE	log4go.go	/^	TRACE$/;"	c
+TestConsoleLogWriter	log4go_test.go	/^func TestConsoleLogWriter(t *testing.T) {$/;"	f
+TestCountMallocs	log4go_test.go	/^func TestCountMallocs(t *testing.T) {$/;"	f
+TestELog	log4go_test.go	/^func TestELog(t *testing.T) {$/;"	f
+TestFileLogWriter	log4go_test.go	/^func TestFileLogWriter(t *testing.T) {$/;"	f
+TestFormatLogRecord	log4go_test.go	/^func TestFormatLogRecord(t *testing.T) {$/;"	f
+TestLogOutput	log4go_test.go	/^func TestLogOutput(t *testing.T) {$/;"	f
+TestLogger	log4go_test.go	/^func TestLogger(t *testing.T) {$/;"	f
+TestXMLConfig	log4go_test.go	/^func TestXMLConfig(t *testing.T) {$/;"	f
+TestXMLLogWriter	log4go_test.go	/^func TestXMLLogWriter(t *testing.T) {$/;"	f
+Trace	log4go.go	/^func (log Logger) Trace(arg0 interface{}, args ...interface{}) {$/;"	f
+Trace	wrapper.go	/^func Trace(arg0 interface{}, args ...interface{}) {$/;"	f
+WARNING	log4go.go	/^	WARNING$/;"	c
+Warn	log4go.go	/^func (log Logger) Warn(arg0 interface{}, args ...interface{}) error {$/;"	f
+Warn	wrapper.go	/^func Warn(arg0 interface{}, args ...interface{}) error {$/;"	f
+e	examples/SimpleNetLogServer.go	/^func e(err error) {$/;"	f
+filename	examples/FileLogWriter_Manual.go	/^	filename = "flw.log"$/;"	c
+formatCache	pattlog.go	/^var formatCache = &formatCacheType{}$/;"	v
+formatCacheType	pattlog.go	/^type formatCacheType struct {$/;"	t
+formatTests	log4go_test.go	/^var formatTests = []struct {$/;"	v
+getFormatCache	pattlog.go	/^func getFormatCache() *formatCacheType {$/;"	f
+init	wrapper.go	/^func init() {$/;"	f
+intLogc	log4go.go	/^func (log Logger) intLogc(lvl Level, closure func() string) {$/;"	f
+intLogf	log4go.go	/^func (log Logger) intLogf(lvl Level, format string, args ...interface{}) {$/;"	f
+intRotate	filelog.go	/^func (w *FileLogWriter) intRotate() error {$/;"	f
+levelStrings	log4go.go	/^	levelStrings = [...]string{"FNST", "FINE", "DEBG", "TRAC", "INFO", "WARN", "EROR", "CRIT"}$/;"	v
+log4go	config.go	/^package log4go$/;"	p
+log4go	filelog.go	/^package log4go$/;"	p
+log4go	log4go.go	/^package log4go$/;"	p
+log4go	log4go_test.go	/^package log4go$/;"	p
+log4go	pattlog.go	/^package log4go$/;"	p
+log4go	socklog.go	/^package log4go$/;"	p
+log4go	termlog.go	/^package log4go$/;"	p
+log4go	wrapper.go	/^package log4go$/;"	p
+logRecordWriteTests	log4go_test.go	/^var logRecordWriteTests = []struct {$/;"	v
+main	examples/ConsoleLogWriter_Manual.go	/^func main() {$/;"	f
+main	examples/ConsoleLogWriter_Manual.go	/^package main$/;"	p
+main	examples/FileLogWriter_Manual.go	/^func main() {$/;"	f
+main	examples/FileLogWriter_Manual.go	/^package main$/;"	p
+main	examples/SimpleNetLogServer.go	/^func main() {$/;"	f
+main	examples/SimpleNetLogServer.go	/^package main$/;"	p
+main	examples/SocketLogWriter_Manual.go	/^func main() {$/;"	f
+main	examples/SocketLogWriter_Manual.go	/^package main$/;"	p
+main	examples/XMLConfigurationExample.go	/^func main() {$/;"	f
+main	examples/XMLConfigurationExample.go	/^package main$/;"	p
+muFormatCache	pattlog.go	/^var muFormatCache = sync.Mutex{}$/;"	v
+newLogRecord	log4go_test.go	/^func newLogRecord(lvl Level, src string, msg string) *LogRecord {$/;"	f
+now	log4go_test.go	/^var now time.Time = time.Unix(0, 1234567890123456789).In(time.UTC)$/;"	v
+port	examples/SimpleNetLogServer.go	/^	port = flag.String("p", "12124", "Port number to listen on")$/;"	v
+run	pattlog.go	/^func (w FormatLogWriter) run(out io.Writer, format string) {$/;"	f
+run	termlog.go	/^func (c *ConsoleLogWriter) run(out io.Writer) {$/;"	f
+setFormatCache	pattlog.go	/^func setFormatCache(f *formatCacheType)  {$/;"	f
+stdout	termlog.go	/^var stdout io.Writer = os.Stdout$/;"	v
+strToNumSuffix	config.go	/^func strToNumSuffix(str string, mult int) int {$/;"	f
+testLogFile	log4go_test.go	/^const testLogFile = "_logtest.log"$/;"	c
+xmlFilter	config.go	/^type xmlFilter struct {$/;"	t
+xmlLoggerConfig	config.go	/^type xmlLoggerConfig struct {$/;"	t
+xmlProperty	config.go	/^type xmlProperty struct {$/;"	t
+xmlToConsoleLogWriter	config.go	/^func xmlToConsoleLogWriter(filename string, props []xmlProperty, enabled bool) (*ConsoleLogWriter, bool) {$/;"	f
+xmlToFileLogWriter	config.go	/^func xmlToFileLogWriter(filename string, props []xmlProperty, enabled bool) (*FileLogWriter, bool) {$/;"	f
+xmlToSocketLogWriter	config.go	/^func xmlToSocketLogWriter(filename string, props []xmlProperty, enabled bool) (SocketLogWriter, bool) {$/;"	f
+xmlToXMLLogWriter	config.go	/^func xmlToXMLLogWriter(filename string, props []xmlProperty, enabled bool) (*FileLogWriter, bool) {$/;"	f
